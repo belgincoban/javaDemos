@@ -28,6 +28,20 @@ public class Main {
 		else {
 			System.out.println("bu iki sayı arkadaş değildir.");
 		}
+		
+		double isd= böl(5, 0);
+		System.out.println(isd);
+		
 	}
+	public static double böl(int sayi1, int sayi2){
 
+        if(sayi2<=0){
+           return 0;
+        }
+        double bölüm= sayi1/sayi2;
+
+        return bölüm ;
+    }
 }
+
+
